@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio website of Sanjay</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e52ae59a31.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/e52ae59a31.js" crossorigin="anonymous"></script>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo2.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                <h1>Hi, I'M <span>Sanjay</span><br> From Thiruvannamalai</h1>
+                </div>
+            </div>
+
+        </div>
+        
+    <!------------About------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/logo3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am an Engineering student currently Pursuing Bachelors of Engineering in Computer Science and Engineering At Arunai Engineering College. My academic journey is complemented by hands on internships where I’ve gained hands on experience and practical knowledge in web technologies and other Engineering disciplines. I have completed various courses and certifications ranging from Microsoft office to Web technologies and I’m eager to apply my skills in real world scenarios.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Development</span><br>Complete Application and web-site Development</li>
+                            <li><span>Web Development</span><br>Web Application Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Career Guidence Project</span><br>Developing A Full stack Project For Academics.</li>
+                        <li><span>Counseling Management System</span><br>Worked in the project as intern.</li>
+                        <li><span>Internship in Pantech Solutions</span><br>One month internship in Full Stack Development.</li>
+                    </ul>
+                </div>
+            
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Bachelor of Engineering in Computer Science And Engineering</span><br>At Arunai Engineering College</li>
+                    <li><span>Higher Secondary School Studies</span><br>At Sri Ramakrishna Matriculation Higher Secondary School- Chengam</li>
+                    <li><span>Technical Skills</span><br>Design,Development,Content Writing</li>
+                </ul>
+            </div>
+              </div>  </div>
+            </div>
+        </div>
+    </div>
+    <!--Services-->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Design and Development of creative and user interactive web pages. The Complete Role is performed from the scratch itself.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>Managing All the activities involved in the development of Web Application and Mobile application. Handling the HTML,CSS,JS, React/node JS,MYSQL,MongoDB and so on.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-keyboard"></i>
+                    <h2>Other Technical Aspects</h2>
+                    <p>Handling the marketing side of the completed project using Digital Marketing tools and promoting contents through various content writing strategies.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media Application</h3>
+                        <p>The App connects you to the others around the world.<br>
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Education Application</h3>
+                        <p>Education Apps for learning purpose of the students.<br>Learning videos and lectureres</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping Application</h3>
+                        <p>Online Shopping Apps for purchasing products online.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div><a href="#" class="btn">See More</a>
+
+    </div>
+<!--Contact-->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i style="font-size:24px" class="fa">&#xf0e0;</i>sanjayedu045@gmail.com</p>
+                <p><i style="font-size:24px" class="fa">&#xf095;</i>9345030051</p>
+                <div class="social-icons">
+                    <a href=""><a href="#" class="fa fa-facebook"></a></a>
+                    <a href=""><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+                    <a href=""><i style="font-size:24px" class="fa">&#xf08c;</i></a>
+                    <a href=""><i style="font-size:24px" class="fa">&#xf099;</i></a>
+                </div>
+               <a href="images/SANJAY S PROFILE.pdf" download class="btn btn2">Download CV</a> 
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sanjay. Made as a exact Inspiration.</p>
+    </div>
+</div>
+  
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby8eYEj57woP80LZIHE_fWuT3V4o8rXV-u3zgJdl3_HkolJoKMHK3_NJj8dfMu1Ruit/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+
+    </body>
+</html>
